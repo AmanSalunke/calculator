@@ -1,0 +1,52 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.button{
+    width: 66px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: 0 3px;
+    cursor: pointer;
+    color:rgba(0, 0, 0, 0.874);
+    transition: color .2s , box-shadow .8s;
+    font-size: medium;
+    
+   
+}
+.button:hover{
+    background-color:rgba(0, 0, 0, 0.444);
+    box-shadow: 4px 4px 10px 3px;
+}
+#a{
+    width: 140px;
+    color: gold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#b{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gold;
+    font-size: larger;
+}
+
+.row{
+    margin: 8px 0;
+
+}
+
+.input{
+    margin: 0;
+    width: 210px;
+    font-size:30px ;
+    padding: 19px 37px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(245, 245, 245);
+}
+
+.container{
+    background-color:rgba(128, 128, 128, 0.663);
+}
